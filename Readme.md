@@ -4,7 +4,7 @@ docker image for building dotnet 10 lambda functions
 ## Build image
 Run inside Dockerdile folder
 ```sh
-docker build --no-cache -t dotnet10build:latest -t ghcr.io/pawel-madziar/dotnet10build:latest .
+docker build --no-cache -t ghcr.io/pawel-madziar/dotnet10build:latest .
 ```
 
 ## Push image to github packeges repo
